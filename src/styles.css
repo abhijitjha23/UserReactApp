@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+form {
+  border: 1px solid #333;
+  background-color: #ddd;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form .field-group {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+form .field-group.column {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form .field-group label {
+  min-width: 150px;
+  margin-right: 1rem;
+}
+
+form .field-group input[type="text"],
+form .field-group textarea {
+  width: 100%;
+  max-width: 250px;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #666;
+}
+
+form .field-group textarea {
+  height: 100px;
+}
+
+form .field-group select {
+  width: 100%;
+  max-width: 250px;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #666;
+}
+
+form .actions button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form .actions button:hover {
+  background-color: #666;
+}

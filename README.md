@@ -1,2 +1,0 @@
-# UserReactApp
-Created with CodeSandbox
